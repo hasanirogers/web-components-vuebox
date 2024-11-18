@@ -4,7 +4,6 @@
       return {
         count: 0,
         isDrawerOpened: false,
-        temp: 'dafuq',
       };
     },
     methods: {
@@ -13,7 +12,6 @@
       },
       toggleDrawer() {
         this.isDrawerOpened = !this.isDrawerOpened;
-        console.log(this.isDrawerOpened);
       }
     }
   }
